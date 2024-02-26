@@ -9,3 +9,4 @@ spark自定义作业模版
 
 - mainClass: com.isxcode.star.job.Execute
 - filePath:  build/libs/job1.jar
+- args: show database
