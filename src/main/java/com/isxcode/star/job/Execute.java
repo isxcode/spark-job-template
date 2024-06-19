@@ -21,8 +21,6 @@ public class Execute {
         // 初始化sparkSession
         try (SparkSession sparkSession = initSparkSession()) {
 
-            sparkSession.sql("use isxcode_db");
-
             Dataset<Row> rowDataset = sparkSession.sql(sql);
             rowDataset.collectAsList().forEach(e -> {
                 List<String> metaData = new ArrayList<>();
@@ -46,9 +44,8 @@ public class Execute {
         SparkConf conf = new SparkConf();
         conf.set("spark.executor.extraJavaOptions", "-Dfile.encoding=utf-8");
         conf.set("spark.driver.extraJavaOptions", "-Dfile.encoding=utf-8");
-        conf.set("hive.metastore.uris", "thrift://isxcode:9083");
         conf.set("spark.cores.max", "-1");
-        return sparkSessionBuilder.config(conf).enableHiveSupport().getOrCreate();
+        return sparkSessionBuilder.config(conf).getOrCreate();
     }
 
     // 导出结果
