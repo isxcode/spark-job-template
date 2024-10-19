@@ -109,5 +109,5 @@ dependencies {
 }
 
 jar {
-    archiveFileName = "job1.jar"
+    archiveFileName = "spark-custom-job.jar"
 }
