@@ -25,8 +25,9 @@ cp ./build/libs/spark-custom-job.jar ~/Downloads
 
 - https://openfly.oss-cn-shanghai.aliyuncs.com/spark-examples_2.12-3.4.1.jar
 
-mainClass: org.apache.spark.examples.SparkPi
-args: 10
+- 应用名称: pi-demo
+- mainClass: org.apache.spark.examples.SparkPi
+- 请求参数: 10
 
 查看结果地址: Finished Drivers的stdout中
 
