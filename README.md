@@ -20,3 +20,14 @@ cp ./build/libs/spark-custom-job.jar ~/Downloads
 - 应用名称: custom-job
 - mainClass: com.isxcode.star.job.Execute
 - 请求参数: show databases;
+
+### 官网pi计算demo
+
+- https://openfly.oss-cn-shanghai.aliyuncs.com/spark-examples_2.12-3.4.1.jar
+
+mainClass: org.apache.spark.examples.SparkPi
+args: 10
+
+查看结果地址: Finished Drivers的stdout中
+
+![20241023172629](https://img.isxcode.com/picgo/20241023172629.png)
