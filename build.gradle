@@ -74,6 +74,9 @@ dependencies {
     // hadoop-hdfs
     implementation "org.apache.hadoop:hadoop-hdfs:${HADOOP_VERSION}"
 
+    // hadoop-client
+    implementation "org.apache.hadoop:hadoop-client:${HADOOP_VERSION}"
+
     // hadoop-mapreduce-client-core
     implementation "org.apache.hadoop:hadoop-mapreduce-client-core:${HADOOP_VERSION}"
 
