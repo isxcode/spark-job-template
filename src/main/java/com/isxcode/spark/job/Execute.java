@@ -1,4 +1,4 @@
-package com.isxcode.star.job;
+package com.isxcode.spark.job;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.spark.SparkConf;

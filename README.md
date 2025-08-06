@@ -18,7 +18,7 @@ cp ./build/libs/spark-custom-job.jar ~/Downloads
 ### 新建作业
 
 - 应用名称: custom-job
-- mainClass: com.isxcode.star.job.Execute
+- mainClass: com.isxcode.spark.job.Execute
 - 请求参数: show databases;
 
 ### 官网pi计算demo
