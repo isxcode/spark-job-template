@@ -4,7 +4,7 @@
 
 ### 产品介绍
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**至轻云**](https://zhiqingyun.isxcode.com)是一款超轻量级、企业级大数据计算产品，围绕Spark生态打造的数据计算平台。一键部署，开箱即用。可快速实现Spark计算、大数据离线ETL、实时计算、作业定时调度等功能。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**至轻云**](https://zhiqingyun.isxcode.com)是一款企业级、智能化大数据中心。一键部署，开箱即用。可快速实现大数据计算、数据采集、数据清洗、数据安全、数据质量、数据管理、数据接口开放等功能，助力企业构建新一代智慧数据中心。
 
 ### 构建命令
 
@@ -23,7 +23,7 @@ cp ./build/libs/spark-custom-job.jar ~/Downloads
 
 ### 官网pi计算demo
 
-- https://openfly.oss-cn-shanghai.aliyuncs.com/spark-examples_2.12-3.4.1.jar
+- http://zhiqingyun-demo.isxcode.com/tools/open/file/spark-examples_2.12-3.4.1.jar
 
 - 应用名称: pi-demo
 - mainClass: org.apache.spark.examples.SparkPi
